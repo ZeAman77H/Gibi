@@ -1,0 +1,44 @@
+header {
+    border: solid green 2px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    min-width: 85px;
+    max-width: 7.7%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px;
+}
+nav li{
+    list-style: none;
+}
+.greeting {
+    border: solid red 2px;
+    height: 250px;
+    display: flex;
+    align-items: center;  /* Align items vertically */
+    justify-content: center; /* Center content */
+    gap: 20px; /* Space between image and text */
+/* Full height */
+    position: relative; /* Needed for slideshow */
+    background-color: 	#509bcd;
+}
+.bigimage{
+    width: 250px;
+    height:100%;
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover;
+    border: solid #ee1 2px;
+    align-items: center;
+}
+.greeting h2{
+    position: relative;
+    left: 20px;
+    color: #eee;
+    background-color: #307bad;
+    padding: 2px;
+}
